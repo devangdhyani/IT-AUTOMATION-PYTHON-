@@ -1,0 +1,17 @@
+x = ["Now", "we", "are", "cooking!"]       //     list are sequence of elemnets of any type that are mutable
+x[4:]                                        //  //  //    tuples are sequence of elements of any type that are immutable
+x[2:]                                                           
+------------------------------------
+fruits = ["Pineapple", "Banana", "Apple", "Melon"]
+fruits.insert(0, "Orange")
+fruits.insert(25, "Peach")
+fruits.remove("Melon")
+print(fruits)                                         /// modifyinng list basically important is (anything/fruits.append (" kiwi"))it will modify or add kiwi to fruits
+---------------------------------------------------
+def convert_seconds(seconds):
+  hours = seconds // 3600
+  minutes = (seconds - hours * 3600) // 60
+  remaining_seconds = seconds - hours * 3600 - minutes * 60
+  return hours, minutes, remaining_seconds
+result = convert_seconds(5000)
+print(result)                                                 
