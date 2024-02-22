@@ -1,0 +1,19 @@
+A sequential, immutable collection of textual data           /// string 
+checkmark------------------------------------------
+A sequential, mutable collection of any data type            // list 
+--------------------------------------------------
+An unordered collection of unique elements                    //set
+checkmark-------------------
+Stores key:value pairs                                     /// dictionary
+checkmark----------------------
+A sequential, immutable collection of any data type
+checkmark---------------------------                       ///    tuples
+
+  [ 'a','b', 3, 4 ]
+checkmark
+( 'commander','lambda')
+checkmark
+{'^2', 'mc', ' equal', 'E'}                              //^^
+checkmark
+“call me ishmael”                                       ///      string ) Eg
+  { 'a':[42], 'b':[23,6,1] }                              ///    dictionary
