@@ -1,0 +1,24 @@
+ import re
+  log ="july 31 07:65:55 my computer bad_process [12345] error performing package upgrade" // we could use a regular expression  to extract the process ID in a more robust fashion. For that,
+    regex= r"\[(\d+)\]"                                                                                     we're going to import the RE module, 
+    result=re.search(regex.log)
+print  (result[1])   
+ ...............................................                                 // which lets us use the search function to find regular expressions inside strings.
+ 2. grep thon /usr/share/dict/words *****
+like pyhton
+jonathon 
+marathon etc
+// ////These words all contain the string thon somewhere inside of them, 
+which is why they appear in our results. We also see that the output is highlighted for us, NOW
+grep -i python/usr/share/dict/words  *****
+python's
+python etc /////////       only want upper case to upper case
+NOW
+grep l.rts usr/share/dict/words ******here   it automaticaly put word in place of (dot)
+like ///  flirts /alerts etc
+4).The circumflex indicates the beginning and the dollar sign indicates the end of the line. 
+For example, to look for all the words that start with a string fruit, we would write grep circumflex fruit in our file /// [^] ///
+grep ^fruit /usr/share/dict/words ******
+fruitcake /fruitful /fruitfully etc here ^ sign for starting word like fruit.
+5). grep cat$ /usr/share/dict/words 
+pussycat / mobcat/copycat 
