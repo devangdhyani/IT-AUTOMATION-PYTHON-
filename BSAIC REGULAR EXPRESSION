@@ -1,0 +1,27 @@
+SIMPLE MATCHING IN PYHTON
+import re                                                                                                     ( .*)    take every word 
+result=re.search(r"aza',"plaza")                                                                               (re.findall)  = find details of words
+                                                                                                                (re.ignorance)= for insensetive case
+print(result)                    ////       it will show span=(2,5) match ="aza"                               grep (^ or$) fruit /user......
+reult=re.search(r"aza',"bazaar")***
+print(result)                           //   now span (1,4)  match=aza   
+................................                                                                                      (+)=shortest possible matching
+import re                                                                                                            (?) = means either 0 or 1 foreg p?each //even if p not there p is optional
+print(re.search(r"p.ng","sponge" )) ****     //  it will show span=(1,5) match=pong                                  (\) = [for .com  escape is use other wise sys will print other like lcom]
+print(re.search(r"p.ng","pangea",re.IGNORECASE ))*****  if u want insenitive case    /
+\\\\\\[WILD CARD && CHARACTER CLASS]                                                                                 (\w*) = match [letters,UNDERSCOREAND NUMBERS]
+print(re.search(r"[a-z]way", "the linw to highway")) *****              \\\  it will span=(10,18)  match =hway        (\d)=digits
+print (research(r"cat|dog"," i like cats"))**      ////match=cat                                                         (\s)=whitespaces [TAB]
+print (research(r"cat|dog"," i like dogs"))  \\\ span=(7,10)       match=dogs                                           (\b)=boundaries
+print (re.findall(r"cat|dog"," i like both cats and dogs")) //     ['cat','dog' ]  if want all possible matches
+
+\\\\\\\\\\\REPITATION QUALIFIER\\\\\\\\ 
+print(re.search(r"Py.*n","pygamelion"))          ////     [.*]   it can take many words as possible it increase the RANGE.
+print(re.search(r"Py.*n","python programming"))  ////       show  span=(0,9)  match= pyhton programming.
+\\\\egrep (+ or ?)///
+print(re.search(r"o+l+","goldfish"))    span=1,3  match='ol'
+print(re.search(r"p?each","i like each of own"))         
+            \\\\\\\\ ESCAPE CHARACTER ////////// SPECIALY FOR (.) CAUSE U KNOW IF U WRITE ANYTHING WITH .LIKE .COM WILL PRINT LCOM ETC OTHER WORDS
+PRINT (RE.SEARCH (r"\.com" ,"mydomain.com")) NOW MACTH = MYDOMAIN.COM
+
+
