@@ -1,0 +1,8 @@
+def extract_pid (log_line):
+regex =r"\[(d+)\]"
+result =re.search(regex,log_line)                              ///// extract_pid is use to find pid or id
+\\\re.split\\\                         use forIt works similarly to the split function that we used before with strings. 
+                             But instead of taking a string as a separator, you can take any regular expression as a separator.
+re.split(r"[.?!] ,"one sentence , another one? and last one!")
+re.split(r"([.?!]),"one sentence , another one? and last one!")
+(.) (?) (!)
