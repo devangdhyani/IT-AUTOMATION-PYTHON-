@@ -1,0 +1,18 @@
+\\\\ FOR RUNNING SYSTEM COMMAND IN PYTHON\\
+\\ But what if we needed to run a system program from a Python script? Say, for example, that as part of a Python script, 
+we needed to send ICMP packets to a host to check if it's responding.
+
+((( SUBPROCESS IS A MODULE for Run system commands or external programs from your Python script.)))
+import subprocess 
+subprocess.run([date])
+/// sho w  10 march 10:20) ye show karega
+\\\ { obtaing output of systum}\
+result=subprocess.run(["host","8.8.8.8"] capture_o...)   ->   &&&capture_output =True
+print(result.returncode)             /// stdout =important cause when u write it wil show its not proper for pythhon script
+>>>> 0                                 &&& stdout show array of byte so convert into string by(decode() .split()
+print(result.stdout)
+  !!!  b' 8.8.8.8 dns google  ..                     basically is show(b) at starts means array of byte
+ & print(result.stdout.decode().split())
+  !!!! ['8.8.8.8.in-addr...,'domain','name',pointer','dns-google']
+  print(result.stderr)           ///&&7  stderr = for finding error
+  i kow there is error but how  to find result.stdout=NO ,result.stderr=YES
