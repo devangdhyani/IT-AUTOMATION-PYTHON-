@@ -1,0 +1,42 @@
+ \\\\\\\\\\\ bASH\\                                         
+mkdir mynewdir                                                     
+cd mynewdir
+pwd        \\ preiviuos to print currunt working direct             || ps: lists the processes executing in the current terminal for the current user
+
+                                                          ||    ps ax: lists all processes currently executing for all users  
+
+                                                                     || ps e: shows the environment for the processes listed  
+
+                                                  || kill PID: sends the SIGTERM signal to the process identified by PID
+
+                                                                  ||  fg: causes a job that was stopped or in the background to return to the foreground
+
+                                                              || bg: causes a job that was stopped to go to the background 
+                                                                                    jobs: lists the jobs currently running or stopped                                                 
+                                                                            top: shows the processes currently using the most CPU time (press "q" to quit)                                                               
+cp../spider.txt        for copying located in pwd
+touch myfile.txt
+ls -l             to see copy 
+ls -la  for dot short cut or file sc
+mv               \\\\for  rename file
+rm* \\\f or removig 
+ls -l         to check 
+cd ..     for prev idrct
+rmdir   
+REDIRECTION IS PROCESS FOR SENDING STREAM TO DIFFERENT DIRCECTION   [>]
+>> fordouble or < for 
+echi " my content of file > mynewdir
+cat mynewdir
+ \\\\\\ Our [capitalized script] uses the {sys stdin} file object to iterate through each line of standard input, 
+printing the capitalized version to standard output. & catpital me daldeta hi bs = a =>A
+$ cat sample.txt | tr ' ' '\n' | sort & corect way to use pipe
+
+Correct< The contents of the txt file are passed on to be placed in their own line and sorted in alphabetical 
+order on the displa>
+\\\\\\\ Signals are tokens delivered to running processes to indicate a desired action.
+Using signals, we can tell a program that we want it to pause or terminate. \
+for eg- ping www.example.com 
+last forever unless we entrupt with /// &<ctrl+c>
+for eg- ping www.example.com  <cyrl+z> it will stop but not completly so 
+continue it with <fg> 
+command1 | command2: connects the output of command1 to the input of command2 @@@@
