@@ -1,0 +1,2 @@
+A Version Control System keeps track of the changes that we make to our files. By using a VCS
+However, unlike a regular file server which only saves the most recent version of a file, a VCS keeps track of all the different versions that we create as we save our changes.
